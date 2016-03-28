@@ -1,0 +1,18 @@
+
+Functions needed
+    CONFIRM(ready to play?)
+    EXIT button
+    HELP button
+
+    CARDS
+      random placement of cards
+      click card toggleClass? to "flip" cards
+      alert when matching pair is found ('you found a match!')
+        prevent from flipping back then make matches disappear
+      score counter
+      counter to count amount of tries
+      prompt(choose a level)
+      game level display
+      alert('you win!')
+      confirm('play again?')
+      alert('game over')

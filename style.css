@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  width: 100%;
+}
+
+header{
+  width: 80%;
+  margin: 20px 10px 20px 10px;
+  border: 1px solid;
+
+}
+
+article{
+  width: 50%;
+  height: 140px;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid;
+
+}
+aside{
+
+}
+section{
+  width: 65%;
+  display: flex;
+  margin-left: 10px;
+
+  border: 1px solid;
+
+}
+#cards{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+img{
+  width: 140px;
+  height: 160px;
+  
+
+  margin: 5px;
+  border: 1px solid;
+}
