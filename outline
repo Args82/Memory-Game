@@ -1,0 +1,41 @@
+Memory card game
+Objective:  to find all matching pairs until the board is clear
+Rules:
+
+1. Basics
+  -Interactive site, for all ages, straight forward content, funny/fun game site "tone", create cool logo to put on my site (eventually on all my projects), Readme.md with game info,
+
+
+2. Static content
+    Heading
+    directions
+    user story?
+    sidebar/nav with score, help, exit, # of tries left
+    card grid layout
+    Do I want links?
+    levels? easy would have something like 20 tries, med 15? hard 12?
+
+3. Design ideas
+  -Find color inspiration(create folder) color schemes(depends on images used), font types,
+  -layout(3 rows of 4 cards?)
+  -Image folder: 6 pair of matching images, owls; cartoon? funny? one facedown image for 12 cards
+
+4. Mockup/wireframe in google drive & folder
+
+5. Functions needed
+    CONFIRM(ready to play?)
+    EXIT button
+    HELP button
+
+    CARDS
+      random placement of cards
+      click card toggleClass? to "flip" cards
+      alert when matching pair is found ('you found a match!')
+        prevent from flipping back then make matches disappear
+      score counter
+      counter to count amount of tries
+      game level display
+      alert('you win!')
+      confirm('play again?')
+      alert('game over')
+      
