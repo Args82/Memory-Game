@@ -3,7 +3,7 @@ Objective:  to find all matching pairs until the board is clear
 Rules:
 
 1. Basics
-  -Interactive site, for all ages, straight forward content, funny/fun game site "tone", create cool logo to put on my site (eventually on all my projects), Readme.md with game info,
+  -Interactive site, for all ages, straight forward content, funny/fun game site "tone", create cool logo to put on my site (eventually on all my projects), README.md with game info,
 
 
 2. Static content
@@ -34,8 +34,8 @@ Rules:
         prevent from flipping back then make matches disappear
       score counter
       counter to count amount of tries
+      prompt(choose a level)
       game level display
       alert('you win!')
       confirm('play again?')
       alert('game over')
-      

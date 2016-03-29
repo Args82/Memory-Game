@@ -1,18 +1,60 @@
+console.log('loaded')
 
-Functions needed
-    CONFIRM(ready to play?)
-    EXIT button
-    HELP button
+// main functions
 
-    CARDS
-      random placement of cards
-      click card toggleClass? to "flip" cards
-      alert when matching pair is found ('you found a match!')
-        prevent from flipping back then make matches disappear
-      score counter
-      counter to count amount of tries
-      prompt(choose a level)
-      game level display
-      alert('you win!')
-      confirm('play again?')
-      alert('game over')
+// var memoryGame = {}
+
+
+var owlImages =['images/image1.jpg', 'images/image2.jpg','images/image3.jpg','images/image4.jpg','images/image5.jpg','images/image6.jpg','images/image1.jpg', 'images/image2.jpg','images/image3.jpg','images/image4.jpg','images/image5.jpg','images/image6.jpg'] //creating cards, hold content
+
+// var faceDown = ['images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg','images/facedown.jpg']
+
+var $owlImages = $('owlImages')
+// var $faceDown = $('faceDown')
+var cardIndex =[];// stores card values
+// var;
+// var;
+function shuffle () {
+ for (i = owlImages.length - 1; i > 0; i -= 1) {
+   var j = Math.floor(Math.random() * (i + 1))
+   var tempIndex = owlImages[i]
+   owlImages[i] = owlImages[j]
+   owlImages[j] = tempIndex
+ }
+ console.log(owlImages)
+};
+
+
+
+
+function makeCard(){
+  for (var i = 0; i < owlImages.length; i++) {
+    $board = $('#board').append('<div>').css('background-image', 'url(' + owlImages[i]+')'));
+}
+
+//     function cardBack(){
+//       for (var i = 0; i < faceDown.length; i++) {
+//         $('#faceDown').append
+//
+//         $('#board').append(faceDown);
+//
+//
+//     $('#').append('<div>').addClass('faceDown ' + i).css('background-image', 'url('i
+//
+//   };
+// };
+
+
+// make load on click of start button
+
+    // $('#game-board').append($('<div>'). addClass('faceup col- card- ' + i).css('background-image', 'url(' + owls[i] + ')'));
+    // $('#game-board').append($('<div>'). addClass('faceup ' + 'col- ' + 'card- ' + [i]).css('background-image', 'url(' + owls[i] + ')'));
+
+
+
+
+
+$(function(){
+  makeCard(owlImages)
+  shuffle()
+})
