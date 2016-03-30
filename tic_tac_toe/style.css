@@ -1,0 +1,17 @@
+body{
+  background-color:
+}
+table{
+  width: 450px;
+  height: 450px;
+
+  border: 2px solid;
+}
+
+
+.cOne, .cTwo, .cThree{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: 2px solid;
+}

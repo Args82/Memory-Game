@@ -4,15 +4,19 @@ body{
 }
 
 
-div#game-board{
+div#board{
   width: 800px;
   padding: 10px;
 
 }
-div#game-board > div{
+div#board > div{
   width: 160px;
   height: 160px;
   margin: 10px;
-  background-size: cover;
+  
   float: left;
+}
+#header{
+  width: 75%;
+  text-align: center;
 }
