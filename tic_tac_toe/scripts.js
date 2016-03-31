@@ -15,14 +15,20 @@ var currentPlayer = 0;
 
 $('td').click(function(){
     var currentCell = $(this);
-    if(player == 0){
-      player = 1;
-      return currentCell.css('background', 'url(images/image3.jpg)');
-    } else {
-      player = 0;
-    return currentCell.css('background', 'url(images/image2.jpg)')
-    }
+    var taken = currentCell.hasClass("taken");
 
+    if (!taken) {
+      if(player == 0){
+        player = 1;
+        currentCell.css('background', 'url(images/image3.jpg)');
+      } else {
+        player = 0;
+        currentCell.css('background', 'url(images/image2.jpg)')
+      }
+      currentCell.addClass("taken");
+    }else {
+      alert("can't do that silly!");
+    }
 
 })
 });
